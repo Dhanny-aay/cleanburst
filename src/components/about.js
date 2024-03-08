@@ -2,7 +2,7 @@ import fullpeople from './assets/full-shot-people-cleaning-office.jpg';
 
 const About = () => {
     return ( 
-        <div className="mt-32 px-16 w-full flex flex-col justify-center items-center">
+        <div className="mt-32 px-4 md:px-16 w-full flex flex-col justify-center items-center">
             <p className=" font-Outfit font-medium text-base text-[#48487F] text-center">About</p>
             <p className=" font-Outfit font-semibold text-black text-3xl mt-3 text-center">What We Do in Detail</p>
             <div style={{backgroundImage:`url(${fullpeople})`, backgroundPosition:'', backgroundSize:'cover'}} className=" mt-16 w-full h-[400px] rounded-md bg-[#f5f5f4]"></div>

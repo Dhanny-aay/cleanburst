@@ -1,12 +1,12 @@
 const Testimonial = () => {
     return ( 
         <>
-        <div className="mt-32 px-16 w-full flex flex-col justify-center items-center">
+        <div className="mt-32 px-4 md:px-16 w-full flex flex-col justify-center items-center">
             <p className=" font-Outfit font-medium text-base text-[#48487F] text-center">Testimonials</p>
             <p className=" font-Outfit font-semibold text-black text-3xl mt-3 text-center">Our Works Speaks for itself</p>
-            <p className=" mt-4 text-[#676767] font-Outfit text-base text-center px-[15%]">We work hard to provide exceptional service, because Customer Satisfaction is our number one priority and we GUARANTEE everything we do</p>
+            <p className=" mt-4 text-[#676767] font-Outfit text-base text-center md:px-[15%]">We work hard to provide exceptional service, because Customer Satisfaction is our number one priority and we GUARANTEE everything we do</p>
 
-            <div className="w-full mt-16 grid grid-cols-2 gap-[32px]">
+            <div className="w-full mt-16 grid grid-cols-1 md:grid-cols-2 gap-[32px]">
                 <div className="w-full p-8 rounded-md border border-[#00000074] relative">
                     <p className=" font-Outfit font-normal text-sm">"Gary and his partner went above and beyond cleaning my home. I think it’s also important to note how well they communicated the process and set the proper expectations before the job started. Given that, they still went above my expectations. 100% recommend."</p> 
                     <p className=" absolute bottom-3 right-6 text-[#48487F] font-Outfit text-base font-normal">- Sam K</p>
